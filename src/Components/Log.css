@@ -1,0 +1,88 @@
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-width: 320px;
+    background: #fff;
+    font-size: 14px;
+    line-height: 2em;
+    border-radius: 5px;
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+    border-radius: 0;
+}
+
+
+
+.sign-up{
+background-color: white;
+}
+
+
+.button{
+    width: 100%;
+    cursor: pointer;
+
+  margin-top: 10px;
+
+
+}
+
+
+
+
+.input{
+		box-shadow: 0 0 2em hsl(231deg 62% 94%);
+		padding: 1em;
+		display: flex;
+		flex-direction: column;
+		border-radius: 20px;
+}
+
+.ui.grid {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.ui[class*="center aligned"].grid {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.ui.grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    padding: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+
+
+
+.image{
+    height: 200px;
+    display: flex;
+
+  }
